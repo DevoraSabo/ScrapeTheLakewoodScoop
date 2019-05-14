@@ -54,7 +54,7 @@ namespace ScrapeTLS.Data
         {
             var parser = new HtmlParser();
             IHtmlDocument document = parser.ParseDocument(html);
-            var itemDivs = document.QuerySelectorAll("post");
+            var itemDivs = document.QuerySelectorAll(".post");
             List<News> items = new List<News>();
             foreach (var div in itemDivs)
             {

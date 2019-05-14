@@ -1,0 +1,21 @@
+﻿@using ScrapeTLS.Data
+@model IEnumerable<News>
+
+<table class="table table-hover table-striped table-bordered">
+    <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Date</th>
+    </tr>
+    @foreach (var n in Model)
+    {
+        <tr>
+            <td><img style="width: 150px; max-height: 200px;" src="@n.ImageUrl" /></td>
+            <td>
+                <a href="https://www.thelakewoodscoop.com/@n.Url" target="_blank">@n.Title</a>
+            </td>
+            <td>@n.Date</td>
+        </tr>
+    }
+</table>
+

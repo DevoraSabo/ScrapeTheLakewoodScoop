@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeTLS.Web", "ScrapeTLS.Web\ScrapeTLS.Web.csproj", "{BC999545-501F-43B6-8CE4-870C9AE2AE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeTLS.Data", "ScrapeTLS.Data\ScrapeTLS.Data.csproj", "{724032B5-272E-4F11-A316-85CBEB8AF91E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC999545-501F-43B6-8CE4-870C9AE2AE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC999545-501F-43B6-8CE4-870C9AE2AE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC999545-501F-43B6-8CE4-870C9AE2AE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC999545-501F-43B6-8CE4-870C9AE2AE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724032B5-272E-4F11-A316-85CBEB8AF91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724032B5-272E-4F11-A316-85CBEB8AF91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724032B5-272E-4F11-A316-85CBEB8AF91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724032B5-272E-4F11-A316-85CBEB8AF91E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
